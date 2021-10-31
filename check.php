@@ -46,11 +46,11 @@
    <p>メールアドレス <?php echo $email ?></p>
    <p>パスワード <?php echo $pass ?></p>
    <p>お問い合わせ内容 <?php echo $content ?></p>
-   <form action="thank.php" method="POST">
-      <input type="hidden" name="name" value="<?php echo $name ?>">
-      <input type="hidden" name="email" value="<?php echo $email ?>">
-      <input type="hidden" name="pass" value="<?php echo $pass ?>">
-      <input type="hidden" name="content" value="<?php echo $content ?>">
+   <form action="thanks.php" method="POST">
+      <input type="hidden" name="name" value="<?php echo $name; ?>">
+      <input type="hidden" name="email" value="<?php echo $email; ?>">
+      <input type="hidden" name="pass" value="<?php echo $pass; ?>">
+      <input type="hidden" name="content" value="<?php echo $content; ?>">
       <input type="submit" value="OK">
    </form>
 </body>
